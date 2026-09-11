@@ -9,12 +9,12 @@ permissions:
 
 jobs:
   quality:
-    uses: quadcore-factory/plugin-factory-ci/.github/workflows/reusable-plugin-quality.yml@v1
+    uses: quadcore-factory/plugin-factory-ci/.github/workflows/reusable-plugin-quality.yml@v1.0.1
     with:
       php-version: '8.3'
   package:
     needs: quality
-    uses: quadcore-factory/plugin-factory-ci/.github/workflows/reusable-plugin-package.yml@v1
+    uses: quadcore-factory/plugin-factory-ci/.github/workflows/reusable-plugin-package.yml@v1.0.1
     with:
       package-name: landing-bird-brand-credit
       include-vendor: false
