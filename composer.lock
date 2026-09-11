@@ -1,0 +1,14 @@
+{
+  "_readme": ["This file is @generated automatically", "See https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies for basic usage"],
+  "content-hash": "580f2d130ed061dd4af04cbc6ef3aa01",
+  "packages": [],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": [],
+  "prefer-stable": false,
+  "prefer-lowest": false,
+  "platform": {"php": ">=7.4"},
+  "platform-dev": [],
+  "plugin-api-version": "2.6.0"
+}

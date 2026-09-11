@@ -1,0 +1,14 @@
+.lb-brand-credit {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: var(--lb-credit-bg);
+  color: var(--lb-credit-text);
+  font-size: 0.875rem;
+  line-height: 1.4;
+  text-align: center;
+}
+.lb-brand-credit a { color: inherit; text-decoration: underline; text-underline-offset: 0.15em; }
+.lb-brand-credit a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.lb-brand-credit span { font-weight: 600; }
+@media (max-width: 480px) { .lb-brand-credit { padding-inline: 0.75rem; font-size: 0.8125rem; } }
