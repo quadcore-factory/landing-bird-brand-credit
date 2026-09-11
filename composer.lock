@@ -1,14 +1,20 @@
 {
-  "_readme": ["This file is @generated automatically", "See https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies for basic usage"],
-  "content-hash": "580f2d130ed061dd4af04cbc6ef3aa01",
+  "_readme": [
+    "This file locks the dependencies of your project to a known state",
+    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+    "This file is @generated automatically"
+  ],
+  "content-hash": "9ccddcb3d4d945045ecdaec9428fc950",
   "packages": [],
   "packages-dev": [],
   "aliases": [],
   "minimum-stability": "stable",
-  "stability-flags": [],
+  "stability-flags": {},
   "prefer-stable": false,
   "prefer-lowest": false,
-  "platform": {"php": ">=7.4"},
-  "platform-dev": [],
-  "plugin-api-version": "2.6.0"
+  "platform": {
+    "php": ">=7.4"
+  },
+  "platform-dev": {},
+  "plugin-api-version": "2.9.0"
 }
